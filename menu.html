@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>My Menu</title>
+    <style>
+        table, th, td{
+            border: 1px solid;
+            border-collapse: collapse;
+            border-radius: 50%;
+
+        }
+    </style>
+</head>
+<body>
+    <nav>
+    <ul>
+    <li><a href="#main-content">  Main Content</a></li>
+    <li><a href="#appetizers">  Appetizers</a></li>
+    <li><a href="mailto:saabiqoh@gmail.com?subject=Inquiry&body=Hello, I have a question"> 
+        Send us a mail
+    </a></li>
+    <li><a href="#foodtimetable">Food Timetable</a></li>
+    <li><a href="#customer registrationform">Registation form</a></li>
+    </ul>
+    </ul>
+    </nav>
+
+    <section id="main-content">
+            <h5>Welcome to My Menu</h5>
+            <p>Enjoy our delicious rice dishes!</p>
+            <a href="about.html" target="_blank">Learn more about us</a>
+        <ul> 
+            <li type="I">Rice</li>
+            <li type="I">jollof fice</li>
+            <li type="I">coconut rice</li>
+            <li type="I">fried rice</li>
+        </ul>
+    </section>
+    <section id="appetizers">
+        <!--nested list-->
+        <ul>
+            <li>Appertizers
+                <ul>
+                   <li>smallchops
+                    <ul>
+                        <li>puffpuff</li>
+                        <li>sprinrolls</li>
+                    </ul>
+                   </li> 
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section id="foodtimetable"> Food Timetable
+        <table style="width: 100%; border-radius: 3%;">
+            <caption>Foodtime table</caption>
+            <thead>
+            <tr>
+                <th scope="col">Days</th>
+                <th scope="col">Breakbast</th>
+                <th scope="col">Lunch</th>
+                <th scope="col">Dinner</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>Rice and beans with stew</td>
+                <td>Pancake and tea</td>
+                <td>Amala and ewedu</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>Beans and palintain</td>
+                <td>Bread and egg</td>
+                <td>Semo with egusi</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>Spagetti and palintain</td>
+                <td>Bread and egg</td>
+                <td>Potato with egg sauce</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>Beans and braed</td>
+                <td>drinks and biscuit</td>
+                <td>Eba with egusi</td>
+            </tr>
+            <tr>
+                <td>Firday</td>
+                <td>Joloff rice and palintain</td>
+                <td>Bread and egg</td>
+                <td>Small chops</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+   <section id="customer registrationform">
+    <h4>Customer Registartion form</h4>
+    <form action="" method="post" target="_self">
+        <table border="1" cellpading="8">
+            <tr>
+                <td><label for="fname">First Name</label></td>
+                <td><input type="text" id="fname" name="fname"></td>
+            </tr>
+             <tr>
+                <td><label for="lname">Last Name</label></td>
+                <td><input type="text" id="lname" name="lname"></td>
+            </tr>
+             <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+             <tr>
+                <td><label for="password">password</label></td>
+                <td><input type="password" id="password" name="password"></td>
+            </tr>
+             <tr>
+                <td>Gender</td>
+                <td>
+                    <label for="male">Male</label>
+                    <input type="radio" id="male" name="gender" value="Male">
+                </td>
+                <td>
+                    <label for="female">Female</label>
+                    <input type="radio" id="female" name="gender" value="Female">
+                </td>
+            </tr>
+            <tr>
+                <td>Hobbies</td>
+                <td>
+                    <label for="reading">Reading</label>
+                    <input type="checkbox" id="reading" name="hobby" value="Reading">
+                </td>
+                <td>
+                    <label for="cooking">Cooking</label>
+                    <input type="checkbox" id="cooking" name="hobby" value="Cooking">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="country">Country</label></td>
+                <td>
+                    <select id="country" name="country">
+                        <option>Nigeria</option>
+                        <option>Ghana</option>
+                        <option>Khenya</option>
+                        <option>South Africa</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="commet">Comment</label></td>
+                <td>
+                    <textarea id="comment" rows="4" cols="30"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Register">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+   </section> 
+   <a href="#">Back to the top</a>
+   
+    </body>
+</html>

@@ -44,3 +44,36 @@ const foundNumber = number.find(num => num > 3);
 console.log(foundNumber); // Output: 4
 const sum = number.reduce((acc, num) => acc + num, 0);
 console.log(sum); // Output: 15
+console.log(`Half of 100 is ${100 / 2}`); // Output: Half of 100 is 50
+console.log(typeof 4.5)
+let score =65;
+let result = score >= 65 ? "Pass" : "Fail"; 
+console.log(result); // Output: Pass
+/* let theNumber=Number(prompt("Pick a number"));
+if(!Number.isNaN(theNumber)){
+    console.log("Your number is the square root of " + theNumber * theNumber);
+// }*/
+// for (let number =0; number <=12; number  =number+2 ){
+//     console.log(number);
+// }
+// let result =1;
+// for(let counter=0; counter <10; counter =counter+1 ){
+//     result=result*2;
+// }
+// console.log(result);
+
+let total = 0, count = 1;
+while (count <= 10) {
+  total += count;
+  count += 1;
+}
+console.log(total);
+for(let line = "#"; line.length < 8; line += "#") {
+  console.log(line);
+}
+for(let age=5; age>=3; age--){
+    console.log("age is" +age);
+}
+for(let number=1; number<=100; number++){
+    console.log(number);
+}
